@@ -1,0 +1,128 @@
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    background-color: #F2F2F2 !important;
+
+}
+
+.navbar-nav .nav-link {
+  color: black !important; /* Forces text color to black */
+}
+
+.navbar-nav .nav-link:hover {
+  color: darkgray !important; /* Optional: Change color on hover */
+}
+
+#foot2 a {
+  text-decoration: none;
+  color:black;
+}
+#foot2 a:hover{
+  color:rgb(243, 75, 103);
+}
+
+@media (max-width: 768px) {
+    #dogimg,#para1,#page21,#page22 {
+      height: 330px !important;
+      width:85%
+      
+    }
+    #para1 {
+        height: 400px !important;
+        
+      }
+      #home,#schedule {
+        margin-top: 20px !important;
+      }
+      #page22 {
+        margin-top: 45px !important;
+        margin-bottom: 20px;
+      }
+      #dogimg{
+        margin-top: 30px !important;
+      }
+      #foot1,#foot3{
+        font-size: 15px !important;
+      }
+      #footimg{
+        height: 100px !important;
+        width: 100px !important;
+      }
+      
+      
+  }
+
+
+  @media (max-width: 555px) {
+    #para1{
+      height: 50% !important;
+    }
+    #pets {
+      margin-top: 0;
+      font-size: 60px !important; 
+      line-height: 3rem !important;
+    }
+    #p1 {
+        font-size: 16px !important; 
+      }
+      #dogimg{
+        margin-top: 10px !important;
+        height: 270px !important;
+        width: 270px !important;
+      }
+      #home button{
+        margin-top: 0px !important;
+      }
+      #schedule {
+        margin-top: 3rem !important;
+        
+      }
+      #product h1{
+        margin-top: 0rem !important;
+      }
+      #service h1{
+        margin-top: 4rem !important;
+      }
+      #review h1{
+        margin-top: 0rem !important;
+      }
+}
+
+@media (max-width: 990px) {
+  #home{
+    margin-top:0px !important;
+  }
+}
+@media (max-width: 1700px) {
+  #bigfooter{
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 670px) {
+  #foot1,#foot3{
+    font-size: 18px !important;
+  }
+  #foot1, #foot2, #foot3 {
+    text-align: center !important; /* Centers content in each section */
+  }
+  #footer,#foot2{
+    margin-top: 4px !important;
+    width: 100%;
+  }
+  #bigfooter{
+    padding-bottom: 1rem;
+    height: 660px !important;
+  }
+  #foot2 #name{
+    font-size: 15px !important;
+  }
+
+}
+
+
+
+
+
+
+  
