@@ -10,15 +10,30 @@ body{
 }
 
 .navbar-nav .nav-link:hover {
-  color: darkgray !important; /* Optional: Change color on hover */
+  color: rgb(243, 75, 103) !important;  /* Optional: Change color on hover */
 }
 
 #foot2 a {
   text-decoration: none;
   color:black;
 }
+#bigfooter ul li:hover{
+  color:rgb(243, 75, 103);
+}
 #foot2 a:hover{
   color:rgb(243, 75, 103);
+}
+.imgg{
+  transition: transform 0.3s ease-in-out;
+}
+.imgg:hover{
+  transform: scale(1.1);
+}
+.card{
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover{
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
