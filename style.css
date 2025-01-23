@@ -106,6 +106,9 @@ body{
       #review h1{
         margin-top: 0rem !important;
       }
+      #foot2{
+        padding-left:2.1rem;
+      }
 }
 
 @media (max-width: 990px) {
@@ -136,6 +139,13 @@ body{
   }
   #foot2 #name{
     font-size: 15px !important;
+  }
+  #bigfooter #foot2{
+    order: 3!important;
+    padding-left:2.2rem !important;
+  }
+  #bigfooter #foot3{
+    order: 2!important;
   }
 
 }
